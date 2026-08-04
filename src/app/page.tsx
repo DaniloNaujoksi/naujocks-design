@@ -73,7 +73,7 @@ export default function Home() {
         </div>
 
         {/* Hero */}
-        <section className="mx-auto flex min-h-[calc(100svh-20rem)] max-w-[1440px] flex-col justify-center px-6 py-16 sm:px-10">
+        <section className="mx-auto flex min-h-[calc(85svh-20rem)] max-w-[1440px] flex-col justify-center px-6 pt-16 pb-8 sm:px-10">
           <Reveal>
             <p className="flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted sm:text-sm">
               <span className="relative flex size-2" aria-hidden>
@@ -118,7 +118,7 @@ export default function Home() {
         {/* Arbeiten */}
         <section
           id="arbeiten"
-          className="mx-auto max-w-[1440px] scroll-mt-24 px-6 pt-10 pb-24 sm:px-10 sm:pt-12 sm:pb-32"
+          className="mx-auto max-w-[1440px] scroll-mt-24 px-6 pt-6 pb-24 sm:px-10 sm:pt-8 sm:pb-32"
         >
           <Reveal>
             <div className="flex items-baseline justify-between gap-4">
