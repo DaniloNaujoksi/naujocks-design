@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Daniel Naujocks" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - generic [ref=e6]:
+          - link "Arbeiten" [ref=e7] [cursor=pointer]:
+            - /url: /#arbeiten
+          - link "Leistungen" [ref=e8] [cursor=pointer]:
+            - /url: /#leistungen
+          - link "Profil" [ref=e9] [cursor=pointer]:
+            - /url: /#profil
+        - link "Kontakt" [ref=e10] [cursor=pointer]:
+          - /url: /#kontakt
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - paragraph [ref=e14]: Webdesign & Grafikdesign — Berlin
+      - heading "Websites mit Haltung." [level=1] [ref=e19]: Websitesmit Haltung.
+      - generic [ref=e21]:
+        - paragraph [ref=e22]: Ich bin Daniel Naujocks. Ich gestalte und entwickle digitale Auftritte für Marken, die mehr wollen als eine Vorlage — vom ersten Konzept bis zum Livegang, alles aus einer Hand.
+        - generic [ref=e23]:
+          - link "Projekt besprechen" [ref=e24] [cursor=pointer]:
+            - /url: "#kontakt"
+          - link "Arbeiten ansehen" [ref=e25] [cursor=pointer]:
+            - /url: "#arbeiten"
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: Webdesign
+        - generic [ref=e32]: Entwicklung
+        - generic [ref=e34]: Branding
+        - generic [ref=e36]: Betreuung
+        - generic [ref=e38]: Berlin
+      - generic [ref=e40]:
+        - generic [ref=e41]: Webdesign
+        - generic [ref=e43]: Entwicklung
+        - generic [ref=e45]: Branding
+        - generic [ref=e47]: Betreuung
+        - generic [ref=e49]: Berlin
+    - generic [ref=e51]:
+      - generic [ref=e53]:
+        - heading "Ausgewählte Arbeiten" [level=2] [ref=e54]
+        - paragraph [ref=e56]: (02)
+      - generic [ref=e57]:
+        - link [ref=e59] [cursor=pointer]:
+          - /url: https://winemore.vercel.app
+          - generic [ref=e60]:
+            - generic [ref=e62]:
+              - paragraph [ref=e63]: 01 — Weingut · Georgien
+              - heading "Vazis Xidi Winery" [level=3] [ref=e64]
+            - generic [ref=e69]:
+              - paragraph [ref=e70]: "Digitale Bühne für ein Qvevri-Weingut in Westgeorgien: Weinkollektion, Vinoseum-Touren und Besuchsplanung in vier Sprachen — mit eigenem Backoffice für Anfragen."
+              - list [ref=e71]:
+                - listitem [ref=e72]: "2026"
+                - listitem [ref=e73]: Webdesign
+                - listitem [ref=e74]: Entwicklung
+                - listitem [ref=e75]: 4 Sprachen
+          - generic [ref=e77]:
+            - generic [ref=e78]: winemore.vercel.app
+            - img "Screenshot der Website von Vazis Xidi Winery" [ref=e86]
+        - link [ref=e88] [cursor=pointer]:
+          - /url: https://muller-records.vercel.app
+          - generic [ref=e89]:
+            - generic [ref=e91]:
+              - paragraph [ref=e92]: 02 — Techno-Label · Berlin
+              - heading "Müller Records" [level=3] [ref=e93]
+            - generic [ref=e98]:
+              - paragraph [ref=e99]: "Reduzierter Auftritt für das Label von Beroshima-Gründer Frank Müller: Releases, Künstler und Demos auf den Punkt gebracht — so kompromisslos wie der Sound."
+              - list [ref=e100]:
+                - listitem [ref=e101]: "2026"
+                - listitem [ref=e102]: Webdesign
+                - listitem [ref=e103]: Entwicklung
+                - listitem [ref=e104]: Zweisprachig
+          - generic [ref=e106]:
+            - generic [ref=e107]: muller-records.vercel.app
+            - img "Screenshot der Website von Müller Records" [ref=e115]
+        - link [ref=e117] [cursor=pointer]:
+          - /url: "#kontakt"
+          - generic [ref=e119]:
+            - paragraph [ref=e120]: 03 — Ihr Projekt
+            - heading "Der nächste Platz ist frei." [level=3] [ref=e121]
+          - paragraph [ref=e126]: Hier steht bald Ihr Projekt. Erzählen Sie mir, was Sie vorhaben.
+    - paragraph [ref=e130]: Gutes Design ist keine Dekoration. Es ist der Unterschied zwischen gesehen werden und im Kopf bleiben.
+    - generic [ref=e131]:
+      - heading "Leistungen" [level=2] [ref=e133]
+      - generic [ref=e135]:
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - generic [ref=e139]: "01"
+            - heading "Webdesign" [level=3] [ref=e140]
+          - paragraph [ref=e141]: Maßgeschneiderte Websites statt Baukasten. Jede Fläche, jede Schrift, jeder Abstand ist eine Entscheidung — getroffen für Ihre Marke, nicht für eine Vorlage.
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]: "02"
+            - heading "Entwicklung" [level=3] [ref=e146]
+          - paragraph [ref=e147]: "Moderne Technik unter der Haube: Next.js, TypeScript, Bestwerte bei Ladezeit und Suchmaschinen. Schön allein reicht nicht — es muss laufen."
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]: "03"
+            - heading "Grafikdesign & Branding" [level=3] [ref=e152]
+          - paragraph [ref=e153]: Logo, Typografie, Farbwelt. Eine visuelle Identität, die auf dem Bildschirm genauso funktioniert wie auf dem Plakat.
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157]: "04"
+            - heading "Betreuung" [level=3] [ref=e158]
+          - paragraph [ref=e159]: Nach dem Livegang fängt die Arbeit an. Neue Inhalte, Updates, Weiterentwicklung — Ihre Website bleibt so gut, wie sie am ersten Tag war.
+    - generic [ref=e161]:
+      - heading "So arbeite ich" [level=2] [ref=e163]
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - paragraph [ref=e167]: "01"
+          - heading "Verstehen" [level=3] [ref=e168]
+          - paragraph [ref=e169]: Ihre Marke, Ihre Ziele, Ihr Publikum. Erst zuhören, dann gestalten.
+        - generic [ref=e170]:
+          - paragraph [ref=e171]: "02"
+          - heading "Konzept" [level=3] [ref=e172]
+          - paragraph [ref=e173]: Struktur, Inhalte, Tonalität — ein klarer Plan, bevor der erste Entwurf entsteht.
+        - generic [ref=e174]:
+          - paragraph [ref=e175]: "03"
+          - heading "Design & Umsetzung" [level=3] [ref=e176]
+          - paragraph [ref=e177]: Vom Entwurf zum fertigen Produkt, in kurzen Abstimmungsschleifen. Sie sehen früh, was entsteht.
+        - generic [ref=e178]:
+          - paragraph [ref=e179]: "04"
+          - heading "Launch & Begleitung" [level=3] [ref=e180]
+          - paragraph [ref=e181]: "Sauberer Livegang auf Ihrer Domain. Danach: messbare Ergebnisse und ein Ansprechpartner, der bleibt."
+    - generic [ref=e183]:
+      - heading "Profil" [level=2] [ref=e184]
+      - paragraph [ref=e186]: "Ich arbeite an der Schnittstelle von Grafik und Code: Als Grafiker denke ich in Marken und Flächen, als Entwickler in Systemen und Details."
+      - paragraph [ref=e187]: Das Ergebnis sind Websites aus einem Guss — gestaltet und gebaut von einer Hand, ohne Reibungsverluste zwischen Agentur, Designer und Entwickler. Aus Berlin, für Kunden von hier bis Georgien.
+    - generic [ref=e190]:
+      - heading "Kontakt" [level=2] [ref=e191]
+      - paragraph [ref=e193]: Lassen Sie unssprechen.
+      - generic [ref=e194]:
+        - paragraph [ref=e195]: Erzählen Sie mir, was Sie vorhaben — Sie bekommen innerhalb von 48 Stunden eine Antwort.
+        - link "d.naujocks@icloud.com" [ref=e196] [cursor=pointer]:
+          - /url: mailto:d.naujocks@icloud.com
+  - contentinfo [ref=e200]:
+    - generic [ref=e201]:
+      - paragraph [ref=e202]: © 2026 Daniel Naujocks — Webdesign & Grafikdesign, Berlin
+      - generic [ref=e203]:
+        - link "Impressum" [ref=e204] [cursor=pointer]:
+          - /url: /impressum
+        - link "Datenschutz" [ref=e205] [cursor=pointer]:
+          - /url: /datenschutz

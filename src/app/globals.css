@@ -15,6 +15,21 @@
   --live: #3f9d5f;
 }
 
+/* Night-Modus — Standard beim ersten Besuch, invertiert auch den Kontakt-/Footer-Block */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #121110;
+  --surface: #1a1917;
+  --foreground: #f2f0eb;
+  --muted: #a5a199;
+  --line: rgba(242, 240, 235, 0.14);
+  --accent: #f2f0eb;
+  --ink: #f2f0eb;
+  --ink-soft: #6d695f;
+  --ink-line: rgba(23, 22, 19, 0.16);
+  --live: #4fb573;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-surface: var(--surface);
@@ -56,6 +71,13 @@ body {
   font-family: var(--font-sans), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    transition: none;
+  }
 }
 
 ::selection {

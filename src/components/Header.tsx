@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const nav = [
   { href: "/#arbeiten", label: "Arbeiten" },
@@ -28,6 +29,7 @@ export function Header() {
               </Link>
             ))}
           </div>
+          <ThemeToggle />
           <Link
             href="/#kontakt"
             className="rounded-full bg-foreground px-4 py-1.5 text-sm font-medium text-background transition-opacity hover:opacity-80"
