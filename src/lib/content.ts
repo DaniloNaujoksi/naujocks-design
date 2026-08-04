@@ -52,7 +52,7 @@ export const content: Record<Locale, Content> = {
     hero: {
       badge: "Webdesign & Copywriting — Berlin",
       title: "Geile Webseiten\nvom Profi.",
-      text: "Gestaltet und programmiert von einer Hand in Berlin — ohne Agentur-Schleifen, ohne Baukasten. Was Sie unten sehen, ist live: Klicken Sie sich durch. Und dann reden wir über Ihre Website.",
+      text: "Gestaltet und programmiert aus einer Hand in Berlin — ohne Agentur-Schleifen, ohne Baukasten. Was Sie unten sehen, ist live: Klicken Sie sich durch. Und dann reden wir über Ihre Website.",
       ctaPrimary: "Projekt besprechen",
       ctaSecondary: "Arbeiten ansehen",
     },
