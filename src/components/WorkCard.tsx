@@ -6,7 +6,7 @@ function BrowserFrame({ project }: { project: Project }) {
   const host = project.url ? new URL(project.url).host : null;
 
   return (
-    <div className="overflow-hidden rounded-t-xl border border-b-0 border-line bg-surface shadow-[0_-1px_0_rgba(23,22,19,0.02),0_24px_60px_-30px_rgba(23,22,19,0.35)]">
+    <div className="overflow-hidden rounded-xl border border-line bg-surface shadow-[0_24px_60px_-30px_rgba(23,22,19,0.35)]">
       {/* Browser-Chrome */}
       <div className="flex items-center gap-3 border-b border-line bg-background px-4 py-2.5">
         <span className="flex gap-1.5" aria-hidden>
@@ -41,6 +41,9 @@ function BrowserFrame({ project }: { project: Project }) {
 function CardBody({ project, index }: { project: Project; index: number }) {
   return (
     <>
+      <div className="px-4 pt-4 sm:px-6 sm:pt-6 lg:px-8 lg:pt-8">
+        <BrowserFrame project={project} />
+      </div>
       <div className="p-6 lg:p-8">
         <div className="flex items-start justify-between gap-6">
           <div>
@@ -75,9 +78,6 @@ function CardBody({ project, index }: { project: Project; index: number }) {
             </li>
           ))}
         </ul>
-      </div>
-      <div className="mt-auto px-4 sm:px-6 lg:px-8">
-        <BrowserFrame project={project} />
       </div>
     </>
   );
