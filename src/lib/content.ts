@@ -236,7 +236,7 @@ export const content: Record<Locale, Content> = {
       },
       "muller-records": {
         sector: "Techno label · Berlin",
-        services: ["Web design", "Bilingual"],
+        services: ["Web design", "Bilingual", "Shop"],
         description:
           "A pared-down presence for the label of Beroshima founder Frank Müller: releases, artists and demos straight to the point — as uncompromising as the sound.",
       },
@@ -248,9 +248,9 @@ export const content: Record<Locale, Content> = {
       },
       "atix-pizza": {
         sector: "Pizzeria · Berlin-Mitte",
-        services: ["Web design", "Bilingual", "A/B testing"],
+        services: ["Web design", "Bilingual", "Copywriting"],
         description:
-          "One-pager for Berlin's cheapest pizza: every pizza €4.90, cheekily written Ogilvy-style — with a pizza conveyor belt, language switcher and an A/B test for two copy variants.",
+          "One-pager for Berlin's cheapest pizza: every pizza €4.90, cheekily written and sharpened for mobile — with a pizza conveyor belt, clickable pizzas and a language switcher. From first draft to launch on Google Maps in two days.",
       },
     },
   },
@@ -355,7 +355,7 @@ export const content: Record<Locale, Content> = {
       },
       "muller-records": {
         sector: "Technolabel · Berlin",
-        services: ["Webbdesign", "Tvåspråkig"],
+        services: ["Webbdesign", "Tvåspråkig", "Butik"],
         description:
           "Ett avskalat uttryck för Beroshima-grundaren Frank Müllers label: releaser, artister och demos rakt på sak — lika kompromisslöst som soundet.",
       },
@@ -367,9 +367,9 @@ export const content: Record<Locale, Content> = {
       },
       "atix-pizza": {
         sector: "Pizzeria · Berlin-Mitte",
-        services: ["Webbdesign", "Tvåspråkig", "A/B-testning"],
+        services: ["Webbdesign", "Tvåspråkig", "Copywriting"],
         description:
-          "Onepager för Berlins billigaste pizza: varje pizza 4,90 €, fräckt skriven i Ogilvy-anda — med pizzaband, språkväxlare och A/B-test för två copyvarianter.",
+          "Onepager för Berlins billigaste pizza: varje pizza 4,90 €, fräckt skriven och vässad för mobilen — med pizzaband, klickbara sorter och språkväxlare. Från första utkast till lansering på Google Maps på två dagar.",
       },
     },
   },

@@ -39,7 +39,7 @@ export const projects: Project[] = [
     client: "Müller Records",
     sector: "Techno-Label · Berlin",
     year: "2026",
-    services: ["Webdesign", "Zweisprachig"],
+    services: ["Webdesign", "Zweisprachig", "Shop"],
     description:
       "Reduzierter Auftritt für das Label von Beroshima-Gründer Frank Müller: Releases, Künstler und Demos auf den Punkt gebracht — so kompromisslos wie der Sound.",
     image: "/work/muller-records.png",
