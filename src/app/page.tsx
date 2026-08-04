@@ -84,18 +84,19 @@ export default function Home() {
             </p>
           </Reveal>
           <Reveal delay={0.08}>
-            <h1 className="mt-8 font-display text-[clamp(2.5rem,5.8vw,5.25rem)] leading-[0.95] font-semibold uppercase tracking-tight font-expanded">
-              Geile High-End Websites
+            <h1 className="mt-8 font-display text-[clamp(2.75rem,6.8vw,6.25rem)] leading-[0.95] font-semibold uppercase tracking-tight font-expanded">
+              High-End-Websites.
               <br />
-              in unter 1 Woche.
+              Live in 7 Tagen.
             </h1>
           </Reveal>
           <Reveal delay={0.16}>
             <div className="mt-12 flex flex-col justify-between gap-10 sm:flex-row sm:items-end">
               <p className="max-w-xl text-lg leading-relaxed text-muted sm:text-xl">
-                Ich bin Daniel Naujocks. Ich gestalte und entwickle digitale
-                Auftritte für Marken, die mehr wollen als eine Vorlage — vom
-                ersten Konzept bis zum Livegang, alles aus einer Hand.
+                Gestaltet und programmiert von einer Hand in Berlin — ohne
+                Agentur-Schleifen, ohne Baukasten. Was Sie unten sehen, ist
+                live: Klicken Sie sich durch. Und dann reden wir über Ihre
+                Website.
               </p>
               <div className="flex shrink-0 flex-wrap items-center gap-6">
                 <a
