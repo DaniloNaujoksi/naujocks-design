@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import type { Project } from "@/lib/site";
+import { content, type Locale } from "@/lib/content";
 
-function BrowserFrame({ project }: { project: Project }) {
+function BrowserFrame({ project, locale }: { project: Project; locale: Locale }) {
   const host = project.url ? new URL(project.url).host : null;
 
   return (
@@ -27,7 +28,7 @@ function BrowserFrame({ project }: { project: Project }) {
       <div className="overflow-hidden">
         <Image
           src={project.image}
-          alt={`Screenshot der Website von ${project.client}`}
+          alt={`${content[locale].work.altPrefix} ${project.client}`}
           width={1440}
           height={900}
           sizes="(min-width: 640px) 45vw, 100vw"
@@ -38,11 +39,11 @@ function BrowserFrame({ project }: { project: Project }) {
   );
 }
 
-function CardBody({ project, index }: { project: Project; index: number }) {
+function CardBody({ project, index, locale }: { project: Project; index: number; locale: Locale }) {
   return (
     <>
       <div className="px-4 pt-4 sm:px-6 sm:pt-6 lg:px-8 lg:pt-8">
-        <BrowserFrame project={project} />
+        <BrowserFrame project={project} locale={locale} />
       </div>
       <div className="p-6 lg:p-8">
         <div className="flex items-start justify-between gap-6">
@@ -63,7 +64,7 @@ function CardBody({ project, index }: { project: Project; index: number }) {
             </span>
           ) : (
             <span className="shrink-0 rounded-full border border-line px-3 py-1 text-xs tracking-wide text-muted">
-              Launch in Kürze
+              {content[locale].work.soon}
             </span>
           )}
         </div>
@@ -83,7 +84,15 @@ function CardBody({ project, index }: { project: Project; index: number }) {
   );
 }
 
-export function WorkCard({ project, index }: { project: Project; index: number }) {
+export function WorkCard({
+  project,
+  index,
+  locale = "de",
+}: {
+  project: Project;
+  index: number;
+  locale?: Locale;
+}) {
   const className =
     "group flex h-full flex-col overflow-hidden rounded-3xl border border-line bg-surface transition-shadow duration-500 hover:shadow-[0_32px_90px_-32px_rgba(23,22,19,0.3)]";
 
@@ -95,14 +104,14 @@ export function WorkCard({ project, index }: { project: Project; index: number }
         rel="noopener noreferrer"
         className={className}
       >
-        <CardBody project={project} index={index} />
+        <CardBody project={project} index={index} locale={locale} />
       </a>
     );
   }
 
   return (
     <div className={className}>
-      <CardBody project={project} index={index} />
+      <CardBody project={project} index={index} locale={locale} />
     </div>
   );
 }
