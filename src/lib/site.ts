@@ -27,7 +27,7 @@ export const projects: Project[] = [
     client: "Vazis Xidi Winery",
     sector: "Weingut · Georgien",
     year: "2026",
-    services: ["Webdesign", "Entwicklung", "4 Sprachen", "Backend", "CRM", "Shop-System"],
+    services: ["Webdesign", "4 Sprachen", "Backend", "CRM", "Shop-System"],
     description:
       "Digitale Bühne für ein Qvevri-Weingut in Westgeorgien: Weinkollektion, Vinoseum-Touren und Besuchsplanung in vier Sprachen — mit eigenem Backoffice für Anfragen.",
     image: "/work/vazis-xidi.png",
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     client: "Müller Records",
     sector: "Techno-Label · Berlin",
     year: "2026",
-    services: ["Webdesign", "Entwicklung", "Zweisprachig"],
+    services: ["Webdesign", "Zweisprachig"],
     description:
       "Reduzierter Auftritt für das Label von Beroshima-Gründer Frank Müller: Releases, Künstler und Demos auf den Punkt gebracht — so kompromisslos wie der Sound.",
     image: "/work/muller-records.png",
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     client: "Surf and Cook",
     sector: "Surfcamp · Peru",
     year: "2026",
-    services: ["Webdesign", "Entwicklung", "Mehrsprachig"],
+    services: ["Webdesign", "Mehrsprachig"],
     description:
       "Surfen am Morgen, Ceviche am Nachmittag: Website für Diegos Surf- und Kochschule in Lobitos, Nordperu — mit Tagesablauf, Unterkunft und direkter Platzanfrage.",
     image: "/work/surf-and-cook.png",

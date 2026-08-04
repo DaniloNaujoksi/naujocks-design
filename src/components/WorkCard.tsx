@@ -69,7 +69,7 @@ function CardBody({ project, index }: { project: Project; index: number }) {
         </div>
         <p className="mt-6 leading-relaxed text-muted">{project.description}</p>
         <ul className="mt-6 flex flex-wrap gap-2">
-          {[project.year, ...project.services].map((tag) => (
+          {project.services.map((tag) => (
             <li
               key={tag}
               className="rounded-full border border-line px-3 py-1 text-[11px] uppercase tracking-widest text-muted"
