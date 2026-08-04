@@ -58,4 +58,16 @@ export const projects: Project[] = [
     url: "https://surfandcook.vercel.app",
     status: "live",
   },
+  {
+    slug: "atix-pizza",
+    client: "ATIX-PIZZA",
+    sector: "Pizzeria · Berlin-Mitte",
+    year: "2026",
+    services: ["Webdesign", "Zweisprachig", "A/B-Testing"],
+    description:
+      "Onepager für die günstigste Pizza Berlins: jede Pizza 4,90 €, frech getextet auf Ogilvy-Art — mit Pizza-Fließband, Sprachumschalter und A/B-Test für zwei Copy-Varianten.",
+    image: "/work/atix-pizza.png",
+    url: "https://pizzeria-atix.vercel.app",
+    status: "live",
+  },
 ];
