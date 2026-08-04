@@ -24,9 +24,9 @@ export default function Impressum() {
             <p className="mt-3">
               Daniel Naujocks
               <br />
-              [Straße und Hausnummer]
+              Reinhardtstr. 2
               <br />
-              [PLZ] Berlin
+              10117 Berlin
             </p>
           </section>
           <section>
@@ -40,6 +40,14 @@ export default function Impressum() {
                 className="text-foreground underline decoration-line underline-offset-4 transition-colors hover:decoration-foreground"
               >
                 {site.email}
+              </a>
+              <br />
+              Telefon:{" "}
+              <a
+                href={site.phoneHref}
+                className="text-foreground underline decoration-line underline-offset-4 transition-colors hover:decoration-foreground"
+              >
+                {site.phone}
               </a>
             </p>
           </section>

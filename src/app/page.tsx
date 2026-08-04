@@ -276,13 +276,21 @@ export default function Home() {
                   Erzählen Sie mir, was Sie vorhaben — Sie bekommen innerhalb
                   von 48 Stunden eine Antwort.
                 </p>
-                <a
-                  href={`mailto:${site.email}`}
-                  className="group inline-flex items-center gap-3 font-display text-xl font-medium tracking-tight underline decoration-ink-line underline-offset-8 transition-colors hover:decoration-background sm:text-3xl"
-                >
-                  {site.email}
-                  <ArrowUpRight className="size-6 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
-                </a>
+                <div className="flex flex-col items-start gap-5 sm:items-end">
+                  <a
+                    href={`mailto:${site.email}`}
+                    className="group inline-flex items-center gap-3 font-display text-xl font-medium tracking-tight underline decoration-ink-line underline-offset-8 transition-colors hover:decoration-background sm:text-3xl"
+                  >
+                    {site.email}
+                    <ArrowUpRight className="size-6 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
+                  </a>
+                  <a
+                    href={site.phoneHref}
+                    className="text-lg text-ink-soft underline decoration-ink-line underline-offset-8 transition-colors hover:text-background hover:decoration-background sm:text-xl"
+                  >
+                    {site.phone}
+                  </a>
+                </div>
               </div>
             </Reveal>
           </div>

@@ -3,6 +3,8 @@ export const site = {
   role: "Webdesign & Grafikdesign",
   city: "Berlin",
   email: "d.naujocks@icloud.com",
+  phone: "0152 53536835",
+  phoneHref: "tel:+4915253536835",
   url: "https://naujocks-design.vercel.app",
 };
 
@@ -25,7 +27,7 @@ export const projects: Project[] = [
     client: "Vazis Xidi Winery",
     sector: "Weingut · Georgien",
     year: "2026",
-    services: ["Webdesign", "Entwicklung", "4 Sprachen"],
+    services: ["Webdesign", "Entwicklung", "4 Sprachen", "Backend", "CRM", "Shop-System"],
     description:
       "Digitale Bühne für ein Qvevri-Weingut in Westgeorgien: Weinkollektion, Vinoseum-Touren und Besuchsplanung in vier Sprachen — mit eigenem Backoffice für Anfragen.",
     image: "/work/vazis-xidi.png",
