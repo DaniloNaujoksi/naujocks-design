@@ -13,11 +13,12 @@ export type Project = {
   year: string;
   services: string[];
   description: string;
+  image: string;
   url?: string;
   status: "live" | "soon";
 };
 
-// Neue Referenzen: einfach ein weiteres Objekt ergänzen.
+// Neue Referenzen: ein weiteres Objekt + ein Screenshot (1440x900) unter public/work/.
 export const projects: Project[] = [
   {
     slug: "vazis-xidi",
@@ -27,7 +28,8 @@ export const projects: Project[] = [
     services: ["Webdesign", "Entwicklung", "4 Sprachen"],
     description:
       "Digitale Bühne für ein Qvevri-Weingut in Westgeorgien: Weinkollektion, Vinoseum-Touren und Besuchsplanung in vier Sprachen — mit eigenem Backoffice für Anfragen.",
-    url: "https://www.vazisxidi.com",
+    image: "/work/vazis-xidi.png",
+    url: "https://winemore.vercel.app",
     status: "live",
   },
   {
@@ -38,6 +40,8 @@ export const projects: Project[] = [
     services: ["Webdesign", "Entwicklung", "Zweisprachig"],
     description:
       "Reduzierter Auftritt für das Label von Beroshima-Gründer Frank Müller: Releases, Künstler und Demos auf den Punkt gebracht — so kompromisslos wie der Sound.",
-    status: "soon",
+    image: "/work/muller-records.png",
+    url: "https://muller-records.vercel.app",
+    status: "live",
   },
 ];

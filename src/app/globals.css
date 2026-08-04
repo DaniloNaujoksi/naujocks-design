@@ -1,12 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0f0e0c;
-  --surface: #16150f;
-  --foreground: #eae6dd;
-  --muted: #a19b8d;
-  --line: rgba(234, 230, 221, 0.14);
-  --accent: #c8a96a;
+  /* Helles Galerie-Fundament — Papier statt Screen */
+  --background: #f2f0eb;
+  --surface: #fbfaf7;
+  --foreground: #171613;
+  --muted: #6d695f;
+  --line: rgba(23, 22, 19, 0.14);
+  --accent: #171613;
+  /* Invertierter Block (Kontakt / Footer) */
+  --ink: #141311;
+  --ink-soft: #a5a199;
+  --ink-line: rgba(242, 240, 235, 0.16);
+  --live: #3f9d5f;
 }
 
 @theme inline {
@@ -16,8 +22,28 @@
   --color-muted: var(--muted);
   --color-line: var(--line);
   --color-accent: var(--accent);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-line: var(--ink-line);
+  --color-live: var(--live);
   --font-sans: var(--font-geist-sans);
-  --font-serif: var(--font-fraunces);
+  --font-display: var(--font-archivo);
+}
+
+/* Breit gelaufene Grotesk für Headlines */
+@utility font-expanded {
+  font-stretch: 120%;
+}
+
+/* Konturschrift für Ziffern & Marquee-Rhythmus */
+@utility text-outline {
+  -webkit-text-stroke: 1.5px var(--foreground);
+  color: transparent;
+}
+
+@utility text-outline-ink {
+  -webkit-text-stroke: 1.5px var(--ink-soft);
+  color: transparent;
 }
 
 html {
@@ -33,6 +59,38 @@ body {
 }
 
 ::selection {
-  background: var(--accent);
+  background: var(--foreground);
   color: var(--background);
+}
+
+/* Marquee — läuft endlos, steht still bei reduzierter Bewegung */
+.marquee {
+  overflow: hidden;
+  display: flex;
+}
+
+.marquee-track {
+  display: flex;
+  flex-shrink: 0;
+  min-width: 100%;
+  align-items: baseline;
+  animation: marquee 36s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .marquee-track {
+    animation: none;
+  }
 }

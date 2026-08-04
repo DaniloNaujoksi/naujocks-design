@@ -13,7 +13,9 @@ export default function Impressum() {
     <>
       <Header />
       <main className="mx-auto w-full max-w-6xl flex-1 px-6 pt-36 pb-24">
-        <h1 className="font-serif text-4xl">Impressum</h1>
+        <h1 className="font-display text-4xl font-semibold tracking-tight font-expanded">
+          Impressum
+        </h1>
         <div className="mt-10 max-w-xl space-y-8 leading-relaxed text-muted">
           <section>
             <h2 className="text-sm uppercase tracking-widest text-foreground">
@@ -33,7 +35,10 @@ export default function Impressum() {
             </h2>
             <p className="mt-3">
               E-Mail:{" "}
-              <a href={`mailto:${site.email}`} className="text-accent">
+              <a
+                href={`mailto:${site.email}`}
+                className="text-foreground underline decoration-line underline-offset-4 transition-colors hover:decoration-foreground"
+              >
                 {site.email}
               </a>
             </p>
