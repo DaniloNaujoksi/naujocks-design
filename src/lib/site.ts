@@ -63,9 +63,9 @@ export const projects: Project[] = [
     client: "ATIX-PIZZA",
     sector: "Pizzeria · Berlin-Mitte",
     year: "2026",
-    services: ["Webdesign", "Zweisprachig", "A/B-Testing"],
+    services: ["Webdesign", "Zweisprachig", "Copywriting"],
     description:
-      "Onepager für die günstigste Pizza Berlins: jede Pizza 4,90 €, frech getextet auf Ogilvy-Art — mit Pizza-Fließband, Sprachumschalter und A/B-Test für zwei Copy-Varianten.",
+      "Onepager für die günstigste Pizza Berlins: jede Pizza 4,90 €, frech getextet und auf Mobile zugespitzt — mit Pizza-Fließband, klickbaren Sorten und Sprachumschalter. Vom ersten Entwurf bis zum Launch auf Google Maps in zwei Tagen.",
     image: "/work/atix-pizza.png",
     url: "https://pizzeria-atix.vercel.app",
     status: "live",
