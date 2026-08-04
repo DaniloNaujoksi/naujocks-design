@@ -85,7 +85,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={0.08}>
             <h1 className="mt-8 font-display text-[clamp(2.5rem,6vw,5.5rem)] leading-[0.95] font-semibold uppercase tracking-tight font-expanded">
-              Geile Profi Websites.
+              Geile Profi Webseiten.
             </h1>
           </Reveal>
           <Reveal delay={0.16}>

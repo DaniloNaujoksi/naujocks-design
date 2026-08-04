@@ -1,17 +1,17 @@
-const items = ["Webdesign", "Entwicklung", "Branding", "Betreuung", "Berlin"];
+const line =
+  "Sie möchten einfach nur eine geile Website mit Wow-Effekt? Schnell, zum fairen Preis — und den ersten Demo-Entwurf bewundern Sie noch am selben Tag. Schreiben Sie mir heute.";
 
 function Track({ ariaHidden = false }: { ariaHidden?: boolean }) {
   return (
     <div className="marquee-track" aria-hidden={ariaHidden || undefined}>
-      {items.map((item, i) => (
+      {[0, 1, 2].map((i) => (
         <span
-          key={item}
-          className={`shrink-0 px-4 font-display text-[11px] font-semibold uppercase tracking-[0.22em] font-expanded sm:px-6 sm:text-xs ${
-            i % 2 === 1 ? "text-muted" : ""
-          }`}
+          key={i}
+          aria-hidden={i > 0 || undefined}
+          className="shrink-0 px-5 font-display text-xs font-medium tracking-[0.06em] sm:text-[13px]"
         >
-          {item}
-          <span className="ml-8 inline-block size-1 rounded-full bg-foreground align-middle sm:ml-12" />
+          {line}
+          <span className="ml-10 inline-block size-1 rounded-full bg-foreground align-middle" />
         </span>
       ))}
     </div>

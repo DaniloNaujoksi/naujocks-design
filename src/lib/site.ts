@@ -44,4 +44,16 @@ export const projects: Project[] = [
     url: "https://muller-records.vercel.app",
     status: "live",
   },
+  {
+    slug: "surf-and-cook",
+    client: "Surf and Cook",
+    sector: "Surfcamp · Peru",
+    year: "2026",
+    services: ["Webdesign", "Entwicklung", "Mehrsprachig"],
+    description:
+      "Surfen am Morgen, Ceviche am Nachmittag: Website für Diegos Surf- und Kochschule in Lobitos, Nordperu — mit Tagesablauf, Unterkunft und direkter Platzanfrage.",
+    image: "/work/surf-and-cook.png",
+    url: "https://surfandcook.vercel.app",
+    status: "live",
+  },
 ];
