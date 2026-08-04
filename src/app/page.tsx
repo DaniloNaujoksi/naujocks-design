@@ -169,10 +169,11 @@ export default function Home() {
         </section>
 
         {/* Statement */}
-        <section className="border-y border-line">
+        <section id="leistungen" className="scroll-mt-24 border-y border-line">
           <div className="mx-auto max-w-[1440px] px-6 py-24 sm:px-10 sm:py-32">
             <Reveal>
-              <p className="max-w-5xl font-display text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.15] font-medium tracking-tight">
+              <SectionKicker>Leistungen</SectionKicker>
+              <p className="mt-12 max-w-5xl font-display text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.15] font-medium tracking-tight">
                 Gutes Design ist keine Dekoration. Es ist der Unterschied
                 zwischen <span className="text-muted">gesehen werden</span> und
                 im Kopf bleiben.
@@ -182,14 +183,8 @@ export default function Home() {
         </section>
 
         {/* Leistungen */}
-        <section
-          id="leistungen"
-          className="mx-auto max-w-[1440px] scroll-mt-24 px-6 py-24 sm:px-10 sm:py-32"
-        >
-          <Reveal>
-            <SectionKicker>Leistungen</SectionKicker>
-          </Reveal>
-          <div className="mt-12 grid gap-x-14 gap-y-14 sm:grid-cols-2">
+        <section className="mx-auto max-w-[1440px] px-6 py-24 sm:px-10 sm:py-32">
+          <div className="grid gap-x-14 gap-y-14 sm:grid-cols-2">
             {services.map((service, i) => (
               <Reveal key={service.title} delay={i * 0.06}>
                 <div className="border-t border-line pt-8">
