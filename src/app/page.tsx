@@ -67,8 +67,13 @@ export default function Home() {
       <Header />
 
       <main className="flex-1">
+        {/* Laufband — schmal, direkt unter der Navigation */}
+        <div className="pt-[65px]">
+          <Marquee />
+        </div>
+
         {/* Hero */}
-        <section className="mx-auto flex min-h-svh max-w-[1440px] flex-col justify-center px-6 pt-28 pb-16 sm:px-10">
+        <section className="mx-auto flex min-h-[calc(100svh-6.5rem)] max-w-[1440px] flex-col justify-center px-6 py-16 sm:px-10">
           <Reveal>
             <p className="flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted sm:text-sm">
               <span className="relative flex size-2" aria-hidden>
@@ -79,10 +84,10 @@ export default function Home() {
             </p>
           </Reveal>
           <Reveal delay={0.08}>
-            <h1 className="mt-8 font-display text-[clamp(3.25rem,10.5vw,10rem)] leading-[0.92] font-semibold uppercase tracking-tight font-expanded">
-              Websites
+            <h1 className="mt-8 font-display text-[clamp(2.5rem,5.8vw,5.25rem)] leading-[0.95] font-semibold uppercase tracking-tight font-expanded">
+              Geile High-End Websites
               <br />
-              mit Haltung.
+              in unter 1 Woche.
             </h1>
           </Reveal>
           <Reveal delay={0.16}>
@@ -111,9 +116,6 @@ export default function Home() {
           </Reveal>
         </section>
 
-        {/* Marquee */}
-        <Marquee />
-
         {/* Arbeiten */}
         <section
           id="arbeiten"
@@ -130,16 +132,16 @@ export default function Home() {
               </p>
             </div>
           </Reveal>
-          <div className="mt-12 flex flex-col gap-10 sm:gap-14">
+          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8">
             {projects.map((project, i) => (
-              <Reveal key={project.slug} delay={0.05}>
+              <Reveal key={project.slug} delay={0.05 * (i % 2)} className="h-full">
                 <WorkCard project={project} index={i} />
               </Reveal>
             ))}
-            <Reveal delay={0.05}>
+            <Reveal delay={0.05} className="h-full">
               <a
                 href="#kontakt"
-                className="group block rounded-3xl border border-line p-6 transition-colors duration-300 hover:bg-surface sm:p-10 lg:p-12"
+                className="group flex h-full flex-col rounded-3xl border border-line p-6 transition-colors duration-300 hover:bg-surface lg:p-8"
               >
                 <div className="flex items-start justify-between gap-6">
                   <div>
@@ -147,18 +149,18 @@ export default function Home() {
                       {String(projects.length + 1).padStart(2, "0")} — Ihr
                       Projekt
                     </p>
-                    <h3 className="mt-4 font-display text-4xl font-semibold tracking-tight text-muted transition-colors duration-300 font-expanded group-hover:text-foreground sm:text-5xl lg:text-6xl">
+                    <h3 className="mt-4 font-display text-3xl font-semibold tracking-tight text-muted transition-colors duration-300 font-expanded group-hover:text-foreground sm:text-4xl">
                       Der nächste Platz ist frei.
                     </h3>
                   </div>
-                  <span className="grid size-12 shrink-0 place-items-center rounded-full border border-line transition-all duration-300 group-hover:border-foreground group-hover:bg-foreground group-hover:text-background sm:size-14">
+                  <span className="grid size-11 shrink-0 place-items-center rounded-full border border-line transition-all duration-300 group-hover:border-foreground group-hover:bg-foreground group-hover:text-background sm:size-12">
                     <ArrowUpRight
-                      className="size-5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 sm:size-6"
+                      className="size-5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
                       aria-hidden
                     />
                   </span>
                 </div>
-                <p className="mt-8 max-w-xl leading-relaxed text-muted">
+                <p className="mt-6 max-w-xl leading-relaxed text-muted">
                   Hier steht bald Ihr Projekt. Erzählen Sie mir, was Sie
                   vorhaben.
                 </p>
