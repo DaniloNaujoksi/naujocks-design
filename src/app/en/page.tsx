@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { HomePage } from "@/components/HomePage";
 
 export const metadata: Metadata = {
-  title: "Daniel Naujocks — Web Design & Graphic Design, Berlin",
+  title: "Daniel Naujocks — Web Design & Copywriting, Berlin",
   description:
     "Custom websites and visual identities from Berlin. Designed and developed by one person — from first concept to launch.",
   openGraph: {
-    title: "Daniel Naujocks — Web Design & Graphic Design, Berlin",
+    title: "Daniel Naujocks — Web Design & Copywriting, Berlin",
     description:
       "Custom websites and visual identities from Berlin. Designed and developed by one person.",
     locale: "en_US",

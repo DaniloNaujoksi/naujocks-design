@@ -16,11 +16,11 @@ const archivo = Archivo({
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: "Daniel Naujocks — Webdesign & Grafikdesign, Berlin",
+  title: "Daniel Naujocks — Webdesign & Copywriting, Berlin",
   description:
     "Maßgeschneiderte Websites und visuelle Identitäten aus Berlin. Gestaltet und entwickelt von einer Hand — vom ersten Konzept bis zum Livegang.",
   openGraph: {
-    title: "Daniel Naujocks — Webdesign & Grafikdesign, Berlin",
+    title: "Daniel Naujocks — Webdesign & Copywriting, Berlin",
     description:
       "Maßgeschneiderte Websites und visuelle Identitäten aus Berlin. Gestaltet und entwickelt von einer Hand.",
     locale: "de_DE",

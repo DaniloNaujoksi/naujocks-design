@@ -50,7 +50,7 @@ export const content: Record<Locale, Content> = {
     marquee:
       "Sie möchten einfach nur eine geile Website mit Wow-Effekt? Verstanden. Kein Agentur-Blabla, keine Meetings über Meetings, kein Praktikant am Werk — ein Berliner, der Design und Code kann. Schnell, zum fairen Preis, und den ersten Demo-Entwurf bewundern Sie noch am selben Tag. Ja, wirklich. Nein, das ist kein Tippfehler. Ihre Konkurrenz scrollt noch durch Baukasten-Vorlagen — Zeit, sie zu überholen. Und wenn Sie denken, gutes Design sei teuer: Warten Sie ab, was schlechtes kostet. Besucher kommen, gähnen, gehen — direkt zur Konkurrenz. Muss nicht sein. Ihre neue Website lädt schneller, als dieser Satz vorbeiscrollt, und verkauft auch nachts um drei, wenn Sie längst schlafen. Denn Ihr Kunde ist nicht doof — Ihr Kunde ist Ihr Kunde, und der verdient besser als eine Vorlage von der Stange. Schreiben Sie mir heute, Antwort in 48 Stunden. Der nächste Platz im Portfolio ist noch frei — er sieht Ihnen ähnlich. Grinsen inklusive.",
     hero: {
-      badge: "Webdesign & Grafikdesign — Berlin",
+      badge: "Webdesign & Copywriting — Berlin",
       title: "Geile Webseiten\nvom Profi.",
       text: "Gestaltet und programmiert von einer Hand in Berlin — ohne Agentur-Schleifen, ohne Baukasten. Was Sie unten sehen, ist live: Klicken Sie sich durch. Und dann reden wir über Ihre Website.",
       ctaPrimary: "Projekt besprechen",
@@ -146,7 +146,7 @@ export const content: Record<Locale, Content> = {
     marquee:
       "You just want a seriously good website with a wow effect? Understood. No agency blabla, no meetings about meetings, no intern at the wheel — one Berliner who does both design and code. Fast, at a fair price, and you'll be admiring the first demo draft the very same day. Yes, really. No, that's not a typo. Your competition is still scrolling through website-builder templates — time to overtake them. And if you think good design is expensive: wait until you see what bad design costs. Visitors come, yawn, leave — straight to the competition. It doesn't have to be that way. Your new website loads faster than this sentence scrolls by, and it keeps selling at three in the morning while you're fast asleep. Because your customer isn't stupid — your customer is your customer, and they deserve better than an off-the-shelf template. Write to me today, answer within 48 hours. The next spot in the portfolio is still open — it looks a lot like you. Grin included.",
     hero: {
-      badge: "Web design & graphic design — Berlin",
+      badge: "Web design & copywriting — Berlin",
       title: "Damn good websites.\nBy a pro.",
       text: "Designed and coded by one person in Berlin — no agency loops, no site builders. Everything below is live: click through. Then let's talk about your website.",
       ctaPrimary: "Discuss your project",
@@ -265,7 +265,7 @@ export const content: Record<Locale, Content> = {
     marquee:
       "Du vill bara ha en riktigt snygg webbplats med wow-effekt? Uppfattat. Inget byråsnack, inga möten om möten, ingen praktikant vid rodret — en berlinare som kan både design och kod. Snabbt, till ett schysst pris, och det första demoutkastet beundrar du redan samma dag. Ja, på riktigt. Nej, det är inget stavfel. Dina konkurrenter scrollar fortfarande genom färdiga mallar — dags att köra om dem. Och om du tror att bra design är dyrt: vänta tills du ser vad dålig design kostar. Besökare kommer, gäspar, går — raka vägen till konkurrenten. Så behöver det inte vara. Din nya webbplats laddar snabbare än den här meningen scrollar förbi, och den säljer klockan tre på natten när du sover gott. För din kund är inte dum — din kund är din kund, och den förtjänar bättre än en mall från hyllan. Skriv till mig i dag, svar inom 48 timmar. Nästa plats i portfolion är fortfarande ledig — den är väldigt lik dig. Flin ingår.",
     hero: {
-      badge: "Webbdesign & grafisk design — Berlin",
+      badge: "Webbdesign & copywriting — Berlin",
       title: "Grymt snygga proffssajter.",
       text: "Formgiven och programmerad av en och samma person i Berlin — inga byråslingor, inga mallverktyg. Allt du ser nedan är live: klicka runt. Sedan pratar vi om din webbplats.",
       ctaPrimary: "Diskutera ditt projekt",
