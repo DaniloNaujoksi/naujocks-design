@@ -96,7 +96,7 @@ body {
   flex-shrink: 0;
   min-width: 100%;
   align-items: baseline;
-  animation: marquee 160s linear infinite;
+  animation: marquee 127s linear infinite;
 }
 
 @keyframes marquee {
