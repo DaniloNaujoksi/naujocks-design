@@ -35,6 +35,18 @@ export const projects: Project[] = [
     status: "live",
   },
   {
+    slug: "atix-pizza",
+    client: "ATIX-PIZZA",
+    sector: "Pizzeria · Berlin-Mitte",
+    year: "2026",
+    services: ["Webdesign", "Zweisprachig", "Copywriting"],
+    description:
+      "Onepager für die günstigste Pizza Berlins: jede Pizza 4,90 €, frech getextet und auf Mobile zugespitzt — mit Pizza-Fließband, klickbaren Sorten und Sprachumschalter. Vom ersten Entwurf bis zum Launch auf Google Maps in zwei Tagen.",
+    image: "/work/atix-pizza.png",
+    url: "https://pizzeria-atix.vercel.app",
+    status: "live",
+  },
+  {
     slug: "muller-records",
     client: "Müller Records",
     sector: "Techno-Label · Berlin",
@@ -56,18 +68,6 @@ export const projects: Project[] = [
       "Surfen am Morgen, Ceviche am Nachmittag: Website für Diegos Surf- und Kochschule in Lobitos, Nordperu — mit Tagesablauf, Unterkunft und direkter Platzanfrage.",
     image: "/work/surf-and-cook.png",
     url: "https://surfandcook.vercel.app",
-    status: "live",
-  },
-  {
-    slug: "atix-pizza",
-    client: "ATIX-PIZZA",
-    sector: "Pizzeria · Berlin-Mitte",
-    year: "2026",
-    services: ["Webdesign", "Zweisprachig", "Copywriting"],
-    description:
-      "Onepager für die günstigste Pizza Berlins: jede Pizza 4,90 €, frech getextet und auf Mobile zugespitzt — mit Pizza-Fließband, klickbaren Sorten und Sprachumschalter. Vom ersten Entwurf bis zum Launch auf Google Maps in zwei Tagen.",
-    image: "/work/atix-pizza.png",
-    url: "https://pizzeria-atix.vercel.app",
     status: "live",
   },
 ];
