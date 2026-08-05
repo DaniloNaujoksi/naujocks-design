@@ -236,7 +236,7 @@ export const content: Record<Locale, Content> = {
       },
       "wagyu-hauser": {
         sector: "Wagyu farm · Upper Palatinate",
-        services: ["Web design", "Copywriting", "Branding"],
+        services: ["Web design", "Copywriting", "Shop"],
         description:
           "Hand-stroked, grass-fed, delivered by Tesla: dark one-pager for fullblood Wagyu from a farm in Schwarzach near Nabburg — with share reservations for the next slaughter and a cut overview.",
       },
@@ -361,7 +361,7 @@ export const content: Record<Locale, Content> = {
       },
       "wagyu-hauser": {
         sector: "Wagyu-uppfödning · Oberpfalz",
-        services: ["Webbdesign", "Copywriting", "Branding"],
+        services: ["Webbdesign", "Copywriting", "Butik"],
         description:
           "Handklappad, gräsuppfödd, levererad i en Tesla: mörk onepager för fullblods-wagyu från gården i Schwarzach vid Nabburg — med andelsreservation inför nästa slakt och styckningsöversikt.",
       },
