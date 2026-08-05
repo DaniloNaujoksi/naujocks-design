@@ -47,6 +47,18 @@ export const projects: Project[] = [
     status: "live",
   },
   {
+    slug: "wagyu-hauser",
+    client: "Hauser Premium Wagyu",
+    sector: "Wagyu-Zucht · Oberpfalz",
+    year: "2026",
+    services: ["Webdesign", "Copywriting", "Branding"],
+    description:
+      "Handgestreichelt, grasgefüttert, im Tesla geliefert: dunkler Onepager für Fullblood-Wagyu vom Hof in Schwarzach bei Nabburg — mit Anteil-Reservierung für die nächste Schlachtung und Zuschnitt-Übersicht.",
+    image: "/work/wagyu-hauser.png",
+    url: "https://wagyu-hauser.vercel.app",
+    status: "live",
+  },
+  {
     slug: "muller-records",
     client: "Müller Records",
     sector: "Techno-Label · Berlin",

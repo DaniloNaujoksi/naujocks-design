@@ -234,6 +234,12 @@ export const content: Record<Locale, Content> = {
         description:
           "A digital stage for a qvevri winery in western Georgia: wine collection, vinoseum tours and visit planning in four languages — with its own back office for inquiries.",
       },
+      "wagyu-hauser": {
+        sector: "Wagyu farm · Upper Palatinate",
+        services: ["Web design", "Copywriting", "Branding"],
+        description:
+          "Hand-stroked, grass-fed, delivered by Tesla: dark one-pager for fullblood Wagyu from a farm in Schwarzach near Nabburg — with share reservations for the next slaughter and a cut overview.",
+      },
       "muller-records": {
         sector: "Techno label · Berlin",
         services: ["Web design", "Bilingual", "Shop"],
@@ -352,6 +358,12 @@ export const content: Record<Locale, Content> = {
         services: ["Webbdesign", "4 språk", "Backend", "CRM", "Butikssystem"],
         description:
           "En digital scen för en qvevri-vingård i västra Georgien: vinkollektion, vinoseum-turer och besöksplanering på fyra språk — med eget backoffice för förfrågningar.",
+      },
+      "wagyu-hauser": {
+        sector: "Wagyu-uppfödning · Oberpfalz",
+        services: ["Webbdesign", "Copywriting", "Branding"],
+        description:
+          "Handklappad, gräsuppfödd, levererad i en Tesla: mörk onepager för fullblods-wagyu från gården i Schwarzach vid Nabburg — med andelsreservation inför nästa slakt och styckningsöversikt.",
       },
       "muller-records": {
         sector: "Technolabel · Berlin",
